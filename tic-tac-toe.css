@@ -1,0 +1,71 @@
+h1 {
+  font-style:italic;
+  font-size: 60px;
+  text-align: center;
+  color: #3366FF;
+}
+body {
+  background-color: #CCFF99;
+}
+.container {
+    width: 400px;
+    margin:0 auto;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+    z-index: -1;
+}
+.gameboard {
+    width: 320px;
+    height:320px;
+}
+.gameboard div {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+#square5 {
+    border: 10px solid;
+    border-color:  #3366FF;
+}
+#square4,#square6 {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color:  #3366FF;
+}
+#square2,#square8 {
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-color:  #3366FF;
+}
+.winnerboard {
+  border: 5px solid;
+  border-color: #999900;
+  position: absolute;
+  margin-top: 100px;
+  top: -30%;
+  left: -70%;
+  height:100px;
+  width:200px;
+}
+#winners {
+font-size: 20px;
+font-weight: 20px;
+font-family: 'arial';
+}
+#player,#gameswon {
+  font-weight: bold;
+  font-family: 'arial';
+}
+#balloons {
+  visibility:hidden;
+  float:right;
+  position: fixed;
+}
+#balloon {
+  float:right;
+  position: fixed;
+}

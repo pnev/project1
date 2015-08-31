@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="/tic-tac-toe.css" />
+  <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="
+https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js"></script>
+  <script src="/tic-tac-toe.js"></script>
+</head>
+<body>
+  <h1>Tic-Tac-Toe!</h1>
+  <div class="container">
+
+      <div class="gameboard">
+          <div id="square1" class="square" ></div>
+          <div id="square2" class="square" ></div>
+          <div id="square3" class="square" ></div>
+          <div id="square4" class="square" ></div>
+          <div id="square5" class="square" ></div>
+          <div id="square6" class="square" ></div>
+          <div id="square7" class="square" ></div>
+          <div id="square8" class="square" ></div>
+          <div id="square9" class="square" ></div>
+      </div>
+
+  <table class='winnerboard'>
+    <th colspan="2" id='winners'>WINNER BOARD</th>
+    <tr>
+      <th id= 'player'>Player</th>
+      <th id= 'gameswon'>Games Won</th>
+  </tr>
+  <tr>
+    <td id='player1'></td>
+    <td id='player1_games_won'></td>
+  </tr>
+  <tr>
+    <td id= 'player2'></td>
+    <td id='player2_games_won'></td>
+  </tr>
+</table>
+<div id=balloon>
+<object id='balloons' data='balloons.svg' type='image/svg+xml'></object>
+</div>
+</div>
+</body>
+</html>
